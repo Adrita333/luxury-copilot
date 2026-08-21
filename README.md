@@ -1,5 +1,5 @@
 ### ▶ [View the live interface](https://raw.githack.com/Adrita333/luxury-copilot/main/copilot.html)
-### 📓 [Read the full build notebook](https://github.com/Adrita333/luxury-copilot/blob/main/Untitled0.ipynb)
+### 📓 [Read the full build notebook](https://github.com/Adrita333/luxury-copilot/blob/main/Luxury_Advisor.ipynb)
 
 
 # Luxury Advisor Co-Pilot
