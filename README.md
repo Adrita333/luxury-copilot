@@ -1,3 +1,7 @@
+### ▶ [View the live interface](https://raw.githack.com/Adrita333/luxury-copilot/main/copilot.html)
+### 📓 [Read the full build notebook](https://github.com/Adrita333/luxury-copilot/blob/main/Untitled0.ipynb)
+
+
 # Luxury Advisor Co-Pilot
 
 A daily brief for luxury client advisors. It reads five tables and produces
