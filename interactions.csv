@@ -1,0 +1,53 @@
+Interaction_ID,Client_ID,Interaction_Date,Interaction_Type,Channel,Topic,Client_Response,Outcome,Advisor_Notes,Initiated_By
+I001,C001,2026-08-03,Private Preview,WhatsApp,Fine Jewellery Preview,Positive,Appointment completed,Preferred quieter private setting; spent time viewing understated pieces,Advisor
+I002,C001,2026-07-12,Event Invitation,WhatsApp,Large Fashion Event,Declined,No attendance,Said large events are difficult due to schedule,Advisor
+I003,C001,2026-06-20,Boutique Visit,In Person,Handbags and Jewellery,Positive,Purchase made,Asked specifically about subtle jewellery styles,Client
+I004,C002,2026-07-07,Fashion Preview,Phone,New Season Collection,Positive,Attended event,Enjoyed preview and responded well to advisor-led styling,Advisor
+I005,C002,2026-06-15,Product Outreach,WhatsApp,Shoes,No Response,No action,Has historically responded better to phone calls,Advisor
+I006,C003,2026-08-14,Product Outreach,Email,New Fragrance,Positive,Website visit,Clicked fragrance content but did not purchase,Advisor
+I007,C003,2026-07-20,Beauty Event,Email,Beauty Workshop,Positive,Attended event,Engaged strongly with fragrance consultation,Advisor
+I008,C001,2026-05-14,Service Outreach,WhatsApp,Handbag Care,Positive,Service booked,Brought Sevigne top handle in for conditioning,Advisor
+I009,C001,2026-03-02,Product Outreach,Email,Seasonal Newsletter,No Response,No action,Head office mailer; no engagement. Responds only to personal WhatsApp,System
+I010,C002,2026-05-30,Boutique Visit,In Person,Shoes,Positive,Purchase made,Bought Cassis heeled sandals after a styling session,Client
+I011,C002,2026-04-18,Product Outreach,Phone,New Season Preview,Positive,Appointment booked,Answered immediately; prefers a short call to a message,Advisor
+I012,C002,2026-03-22,Product Outreach,WhatsApp,Handbags,No Response,No action,Second unanswered WhatsApp message,Advisor
+I013,C003,2026-06-05,Boutique Visit,In Person,Fragrance,Positive,Purchase made,First purchase; Nocturne discovery set,Client
+I014,C003,2026-05-11,Product Outreach,Phone,Beauty Launch,Negative,Requested no calls,Asked not to be called; email only going forward,Advisor
+I015,C004,2026-07-28,Private Salon,Phone,High Jewellery Salon,Positive,Appointment completed,Viewed Nocturne collection sketches; expressed strong interest,Advisor
+I016,C004,2026-06-10,Boutique Visit,In Person,Fine Jewellery,Positive,Purchase made,Acquired the Solaire solitaire pendant,Client
+I017,C004,2026-04-05,Relationship Gesture,Phone,Anniversary Note,Positive,Acknowledged,Warm response; values a personal call from her advisor,Advisor
+I018,C005,2026-08-08,Product Outreach,WhatsApp,Horizon Perpetual,Positive,Information requested,Asked about the waiting list for the perpetual calendar,Advisor
+I019,C005,2026-06-22,Boutique Visit,In Person,Watches,Positive,Purchase made,Purchased the Horizon 36,Client
+I020,C005,2026-05-02,Event Invitation,WhatsApp,Watch Collectors Evening,Declined,No attendance,Politely declined; prefers one-to-one appointments,Advisor
+I021,C006,2026-08-06,Event Invitation,WhatsApp,AW26 Preview,Positive,Confirmed attendance,Enthusiastic; asked which runway looks would be shown,Advisor
+I022,C006,2026-07-01,Boutique Visit,In Person,Fashion,Positive,Purchase made,Bought two AW26 pre-season pieces,Client
+I023,C006,2026-05-19,Private Preview,WhatsApp,Handbags,Positive,Purchase made,Selected the Cassis shoulder bag,Advisor
+I024,C007,2026-05-09,Product Outreach,Email,Travel Goods,No Response,No action,No reply to the travel collection mailer,Advisor
+I025,C007,2026-03-14,Product Outreach,WhatsApp,Leather Goods,Negative,Opt-out of channel,Asked not to be messaged on WhatsApp,Advisor
+I026,C007,2026-01-20,Boutique Visit,In Person,Leather Goods,Positive,Purchase made,Purchased the Meridian tote ahead of travel,Client
+I027,C008,2026-08-20,Product Outreach,WhatsApp,Ritual Skincare,Positive,Information requested,Asked for ingredient details; advisor still replying,Advisor
+I028,C008,2026-07-15,Beauty Event,WhatsApp,Skincare Workshop,Positive,Attended event,Engaged throughout; brought a friend,Advisor
+I029,C008,2026-06-02,Boutique Visit,In Person,Beauty,Positive,Purchase made,Ritual skincare set,Client
+I030,C009,2026-08-11,Product Outreach,Phone,Gifting Consultation,Positive,Appointment booked,Planning a gift for late August; indicated budget is flexible,Advisor
+I031,C009,2026-06-28,Boutique Visit,In Person,Watches,Positive,Purchase made,Bought the Horizon 36 for himself,Client
+I032,C009,2026-04-12,Event Invitation,Phone,Large Gala,Declined,No attendance,Prefers private appointments to large gatherings,Advisor
+I033,C010,2026-08-02,Private Salon,Phone,High Jewellery Commission,Positive,In discussion,Discussing a commissioned piece; timeline deliberately open,Advisor
+I034,C010,2026-06-30,Boutique Visit,In Person,Fine Jewellery,Positive,Purchase made,Solaire diamond line bracelet,Client
+I035,C010,2026-05-16,Event Invitation,Phone,Group Preview Event,Declined,No attendance,Reiterated her preference for private salon appointments only,Advisor
+I036,C010,2026-03-08,Private Salon,In Person,Handbags,Positive,Purchase made,Reserved the Sevigne micro from regional allocation,Advisor
+I037,C011,2026-07-25,Product Outreach,WhatsApp,Seasonal Handbags,Positive,Information requested,Asked for photographs of the new colourways,Advisor
+I038,C011,2026-06-11,Boutique Visit,In Person,Shoes,Positive,Purchase made,Cassis heeled sandal,Client
+I039,C011,2026-04-29,Event Invitation,WhatsApp,Fashion Preview,Positive,Attended event,Enjoyed the smaller preview format,Advisor
+I040,C012,2026-02-17,Product Outreach,Email,Gifting Guide,Negative,Marketing opt-out,Unsubscribed from all marketing communications,System
+I041,C012,2026-01-09,Boutique Visit,In Person,Fragrance,Neutral,Purchase made,Single gift purchase; expressed no further interest,Client
+I042,C013,2026-02-24,Product Outreach,Email,Spring Collection,No Response,No action,No engagement recorded since this message,Advisor
+I043,C013,2025-12-12,Boutique Visit,In Person,Fashion,Positive,Purchase made,An active client at the time; bought evening wear,Client
+I044,C013,2025-11-30,Event Invitation,Email,Private Preview,Positive,Attended event,Attended and enjoyed the evening,Advisor
+I045,C014,2026-08-05,Product Outreach,WhatsApp,Limited Watches,Positive,Information requested,Actively interested in limited allocations,Advisor
+I046,C014,2026-06-18,Event Invitation,WhatsApp,Collectors Dinner,Declined,No attendance,Third declined invitation this year,Advisor
+I047,C014,2026-04-22,Event Invitation,WhatsApp,Boutique Opening,Declined,No attendance,Declined without comment,Advisor
+I048,C014,2026-02-10,Event Invitation,WhatsApp,New Year Reception,Declined,No attendance,Declined without comment,Advisor
+I049,C014,2026-01-15,Private Preview,In Person,Watches,Positive,Purchase made,One-to-one appointment; purchased the Meridian chronograph,Advisor
+I050,C015,2026-08-12,Product Outreach,WhatsApp,Handbags,Positive,Information requested,Considering a first handbag; comparing Cassis and Meridian,Advisor
+I051,C015,2026-07-03,Beauty Event,WhatsApp,Fragrance Discovery,Positive,Attended event,Attended with a friend and bought a fragrance,Advisor
+I052,C015,2026-05-21,Boutique Visit,In Person,Fragrance,Positive,Purchase made,Nocturne eau de parfum,Client

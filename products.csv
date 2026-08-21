@@ -1,0 +1,26 @@
+Product_ID,Product_Name,Collection,Category,Style_Tags,Price_SGD,Scarcity,Allocation_Limited,Launch_Date,Notes
+P001,"Sevigne Top Handle, Small",Sevigne,Handbags,Understated; Elegant,8900,Medium,No,2023-03-01,House signature. The quiet entry point for jewellery-leaning clients.
+P002,"Sevigne Top Handle, Micro",Sevigne,Handbags,Understated; Elegant,7400,High,Yes,2026-02-01,Limited run of 40 for the region. Allocation approval required.
+P003,Cassis Shoulder Bag,Cassis,Handbags,Bold; Statement,6200,Low,No,2025-08-15,Seasonal colourways refreshed twice yearly.
+P004,Meridian Tote,Meridian,Handbags; Leather Goods,Classic; Minimal,5400,Low,No,2024-09-01,Core travel piece. Strong aftercare attachment rate.
+P005,Solaire Diamond Line Bracelet,Solaire,Fine Jewellery,Understated; Elegant,24500,Medium,No,2024-06-01,Most requested anniversary piece in the Singapore boutique.
+P006,Solaire Pave Ear Studs,Solaire,Fine Jewellery,Understated; Minimal,11800,Low,No,2024-06-01,Natural companion piece to the Solaire bracelet.
+P007,Nocturne High Jewellery Necklace,Nocturne,Fine Jewellery,Statement; Elegant,186000,Very High,Yes,2026-09-15,"Unique piece. Private salon viewing only, by advisor nomination."
+P008,Corde Twisted Bangle,Corde,Fine Jewellery,Contemporary; Bold,9600,Medium,No,2025-09-01,Younger clientele. Frequent second purchase after fragrance entry.
+P009,Solaire Solitaire Pendant,Solaire,Fine Jewellery,Classic; Understated,16200,Low,No,2024-06-01,Perennial gifting piece.
+P010,Horizon 36,Horizon,Watches,Classic; Understated,21500,Medium,No,2025-01-01,Entry to the watch category.
+P011,Horizon Perpetual,Horizon,Watches,Classic; Complication,78000,Very High,Yes,2026-08-10,Six pieces allocated to Southeast Asia this year.
+P012,Meridian Chronograph,Meridian,Watches,Contemporary; Bold,34000,Medium,No,2025-10-01,Steel sports reference.
+P013,Autumn 2026 Tailored Wool Coat,AW26,Fashion,Classic; Elegant,4800,Medium,No,2026-09-01,Runway look 12. Preview stock arriving now.
+P014,Autumn 2026 Sequin Evening Gown,AW26,Fashion,Bold; Statement,12400,High,Yes,2026-09-01,Runway look 31. Two in size range per boutique.
+P015,Signature Silk Scarf,Signature,Fashion,Classic; Understated,780,Low,No,2023-01-01,Gifting staple. Common relationship gesture.
+P016,Autumn 2026 Cashmere Knit,AW26,Fashion,Minimal; Contemporary,2100,Low,No,2026-09-01,"Broad appeal, low exclusivity."
+P017,Cassis Heeled Sandal,Cassis,Shoes,Bold; Contemporary,1650,Low,No,2025-08-15,Pairs with the Cassis shoulder bag.
+P018,Meridian Leather Loafer,Meridian,Shoes,Classic; Minimal,1450,Low,No,2024-09-01,Repeat purchase item.
+P019,"Nocturne Eau de Parfum, 100ml",Nocturne,Fragrance,Elegant; Classic,420,Low,No,2024-03-01,New launch. Primary acquisition product for emerging clients.
+P020,"Nocturne Private Blend, 250ml",Nocturne,Fragrance,Exclusive; Elegant,1280,High,Yes,2026-08-05,Boutique exclusive. Not listed online.
+P021,Ritual Skincare Set,Ritual,Beauty,Minimal; Contemporary,690,Low,No,2025-09-01,Workshop tie-in product.
+P023,Atelier Tailored Blazer,Atelier,Fashion,Classic; Elegant,3900,Low,No,2023-02-01,Core tailoring. Carried season to season.
+P024,Signature Evening Dress,Signature,Fashion,Elegant; Statement,7200,Medium,No,2023-09-01,Permanent collection evening wear.
+P025,Core Cashmere Knit,Signature,Fashion,Minimal; Classic,1900,Low,No,2023-01-01,Year-round staple.
+P022,Leather Care Service,Service,Leather Goods,Service,0,N/A,No,2020-01-01,Non-selling touchpoint. Supports the aftercare outreach play.
