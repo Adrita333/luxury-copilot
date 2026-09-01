@@ -8,9 +8,10 @@ will send it without reading why.
 """
 
 import json
+from datetime import date
 
-# Plain string with a __DATA__ placeholder rather than an f-string, because
-# CSS is full of braces and an f-string reads every one as a variable.
+# Plain string with __DATA__ and __DATE__ placeholders rather than an f-string,
+# because CSS is full of braces and an f-string reads every one as a variable.
 TEMPLATE = """<!doctype html><html><head><meta charset="utf-8">
 <title>Maison Aurelle - Advisor Co-Pilot</title>
 <style>
@@ -56,7 +57,7 @@ select{font:inherit;font-size:13px;padding:6px;margin-top:10px;
 .status{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#8a7355}
 </style></head><body><div class="wrap">
 <header><h1>MAISON AURELLE</h1>
-<div class="sub">Advisor Co-Pilot &middot; Friday, 21 August 2026 &middot; Isabelle Cheong</div>
+<div class="sub">Advisor Co-Pilot &middot; __DATE__ &middot; Isabelle Cheong</div>
 </header>
 <div class="bar" id="bar"></div>
 <div id="act"></div>
@@ -143,7 +144,28 @@ def clean(r):
     }
 
 
+def today_stamp():
+    """
+    The date shown in the header.
+
+    This used to be a literal inside TEMPLATE, so the daily job regenerated
+    the page faithfully and stamped the same date on it every time - the
+    brief was current and looked ten days stale.
+
+    Built from parts rather than one strftime because "%-d" (day without a
+    leading zero) is a GNU extension and is not portable off Linux. The
+    runner is UTC; the 07:05 IST schedule is 01:35 UTC on the same calendar
+    day, so the date is right.
+    """
+    d = date.today()
+    return f"{d:%A}, {d.day} {d:%B %Y}"
+
+
 def render(recs):
     """Recommendations in, complete HTML page out."""
     payload = json.dumps([clean(r) for r in recs])
-    return TEMPLATE.replace("__DATA__", payload)
+    # __DATE__ is substituted BEFORE __DATA__ so the injected JSON is never
+    # itself scanned for placeholders.
+    return (TEMPLATE
+            .replace("__DATE__", today_stamp())
+            .replace("__DATA__", payload))
