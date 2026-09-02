@@ -1,13 +1,18 @@
-### ▶ [Live interactive app](https://luxury-copilot.streamlit.app)
-### 📄 [Static daily brief](https://adrita333.github.io/luxury-copilot/)
-### 📓 [Full build notebook](https://github.com/Adrita333/luxury-copilot/blob/main/Luxury_Advisor.ipynb)
-
 # Luxury Advisor Co-Pilot
 
 A daily brief for luxury client advisors. It reads five tables and produces
 one ranked list: which client to approach today, with which piece, on which
 channel, at what time, in what tone — and for some clients, a recommendation
 to say nothing at all.
+
+[![The daily brief — twelve ranked approaches, three held back](assets/brief.png)](https://adrita333.github.io/luxury-copilot/)
+
+**[▶ Live app](https://luxury-copilot.streamlit.app)** ·
+**[📄 Today's brief](https://adrita333.github.io/luxury-copilot/)** ·
+[📓 Build notebook](https://github.com/Adrita333/luxury-copilot/blob/main/Luxury_Advisor.ipynb)
+
+<sub>*The static brief rebuilds itself every morning at 07:00 IST via GitHub Actions —
+the date in its header is today's.*</sub>
 
 ## The data
 
@@ -34,7 +39,7 @@ fit, exclusivity fit, relationship strength and contact restraint.
 ## Today's output
 
 15 clients reviewed, 12 approaches proposed, 3 deliberately left alone,
-1 flagged for advisor approval where a birthday conflicts with a
+1 flagged for advisor approval where a personal occasion conflicts with a
 cooling-off rule.
 
 ## Design note
