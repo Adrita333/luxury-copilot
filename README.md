@@ -79,4 +79,5 @@ saying. Drafts are templates rather than generated text, so every
 recommendation is auditable — an LLM would sit in the drafting layer,
 under the same tone rules, with the advisor still approving every send.
 
-Data is entirely synthetic.
+Maison Aurelle is a fictional maison and every client, piece and interaction
+in this repository is synthetic, generated from a fixed seed.
