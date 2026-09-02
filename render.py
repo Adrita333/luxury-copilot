@@ -12,8 +12,22 @@ from datetime import date
 
 # Plain string with __DATA__ and __DATE__ placeholders rather than an f-string,
 # because CSS is full of braces and an f-string reads every one as a variable.
-TEMPLATE = """<!doctype html><html><head><meta charset="utf-8">
+TEMPLATE = """<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Maison Aurelle - Advisor Co-Pilot</title>
+
+<!-- Link previews. Crawlers for LinkedIn, WhatsApp, Slack and Google do not
+     run the script below, so without these tags the only text they can find
+     is the "Held back" heading, and every shared link is previewed as though
+     nothing was recommended. These are static and describe the real brief. -->
+<meta name="description" content="__DESC__">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Maison Aurelle - Advisor Co-Pilot">
+<meta property="og:description" content="__DESC__">
+<meta property="og:url" content="https://adrita333.github.io/luxury-copilot/">
+<meta property="og:image"
+      content="https://raw.githubusercontent.com/Adrita333/luxury-copilot/main/assets/brief.png">
+<meta name="twitter:card" content="summary_large_image">
 <style>
 *{box-sizing:border-box}
 body{margin:0;background:#faf8f5;color:#1c1a17;
@@ -60,6 +74,9 @@ select{font:inherit;font-size:13px;padding:6px;margin-top:10px;
 <div class="sub">Advisor Co-Pilot &middot; __DATE__ &middot; Isabelle Cheong</div>
 </header>
 <div class="bar" id="bar"></div>
+<h2>Recommended today</h2>
+<noscript><p>This brief renders its cards with JavaScript. Enable it, or read
+the ranked list in <code>store/</code> in the repository.</p></noscript>
 <div id="act"></div>
 <h2>Held back &mdash; no contact recommended today</h2>
 <div id="hold"></div>
@@ -161,11 +178,26 @@ def today_stamp():
     return f"{d:%A}, {d.day} {d:%B %Y}"
 
 
+def preview_text(recs):
+    """
+    The one sentence a link preview gets.
+
+    Built from the same recommendations the page renders, so a shared link
+    never describes a different brief from the one it opens.
+    """
+    approaches = sum(1 for r in recs if r["action"] != "NO CONTACT")
+    held = len(recs) - approaches
+    return (f"{today_stamp()}. {approaches} client approaches ranked with "
+            f"channel, timing and a drafted message; {held} held back, each "
+            f"with the reason shown.")
+
+
 def render(recs):
     """Recommendations in, complete HTML page out."""
     payload = json.dumps([clean(r) for r in recs])
-    # __DATE__ is substituted BEFORE __DATA__ so the injected JSON is never
-    # itself scanned for placeholders.
+    # __DATE__ and __DESC__ are substituted BEFORE __DATA__ so the injected
+    # JSON is never itself scanned for placeholders.
     return (TEMPLATE
             .replace("__DATE__", today_stamp())
+            .replace("__DESC__", preview_text(recs))
             .replace("__DATA__", payload))
